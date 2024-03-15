@@ -1,0 +1,37 @@
+html{
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+ button{
+    padding: 5px;
+    background-color: #f4d04e;
+    color: #000000;
+ }
+
+article{
+    padding: 10px;
+    max-width: 500px;
+    background-color: #f4d04e;
+    border: 1px #000000;
+    box-shadow: 0 5px  #000000;
+    align-items: left;
+}
+
+summary p{
+    color: gray;
+}
+
+
+.profil{
+    display: flexbox;
+    border-radius: 20px;
+}
+.profil h4{
+    color: #000000;
+    font-weight: bold;
+
+}

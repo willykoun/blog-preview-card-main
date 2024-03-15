@@ -1,0 +1,86 @@
+html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4d04e;
+
+}
+
+@font-face {
+    font-family: "VariableFont_wght";
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype'); /* Format TrueType */
+    /* Autres propriétés facultatives */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Figtree-ExtraBold";
+    src: url('assets\fonts\static\Figtree-ExtraBold.ttf') format('truetype'); /* Format TrueType */
+    /* Autres propriétés facultatives */
+    font-weight: bold;
+    font-style:normal;
+  }
+
+article{
+    padding: 15px;
+    width: 350px;;
+    background-color:white;
+    font-family: "VariableFont_wght", sans-serif;
+    align-content: center;  
+    border: 5px #000000;
+    border-radius: 15px;
+    align-content: center;
+    box-shadow: 10px 10px #000000;
+    
+}
+
+.picture img{
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+}
+
+
+ button{
+    padding: 8px 10px 8px 10px;
+    background-color: #f4d04e;
+    color: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+ }
+
+ h1{
+    font-family: "Figtree-ExtraBold", sans-serif;
+}
+
+
+.summary :nth-child(3){
+    color: rgb(113, 111, 111);
+    width: auto;
+}
+
+
+.profil{
+    display: flex;
+    border-radius: 20px;
+}
+.profil :nth-child(1){
+    margin-right:10px;
+} 
+
+
+.profil h4{
+    color: #000000;
+    font-weight: bold;
+   
+
+
+}
+
+.attribution{
+    margin-top: 15PX;
+}
